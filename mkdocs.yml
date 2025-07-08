@@ -1,4 +1,5 @@
 site_name: Fortes Knowledge Base
+site_url: https://milanozinga.github.io/fortes-kb-poc/
 
 theme:
   name: material
