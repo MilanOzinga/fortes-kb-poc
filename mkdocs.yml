@@ -1,0 +1,51 @@
+site_name: Fortes Knowledge Base
+
+theme:
+  name: material
+  logo: images/logo.png
+  palette:
+    - scheme: default
+      primary: '#2AACE2'
+      accent: '#FAA81C'
+    - scheme: slate
+      primary: '#182A54'
+      accent: '#2AACE2'
+
+plugins:
+  - search
+
+
+nav:
+  - Home: index.md
+  - Apps:
+      - General: apps/general.md
+      - Portfolio: apps/portfolio.md
+      - Strategy: apps/strategy.md
+  - Release Notes: release-notes.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
