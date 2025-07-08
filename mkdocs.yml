@@ -11,9 +11,6 @@ theme:
       primary: '#182A54'
       accent: '#2AACE2'
 
-plugins:
-  - search
-
 
 nav:
   - Home: index.md
@@ -22,6 +19,9 @@ nav:
       - Portfolio: apps/portfolio.md
       - Strategy: apps/strategy.md
   - Release Notes: release-notes.md
+
+extra_javascript:
+  - https://unpkg.com/mike@latest/mkdocs/js/version-select.js
 
 markdown_extensions:
   - admonition
