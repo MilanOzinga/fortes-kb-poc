@@ -3,6 +3,30 @@ site_url: https://milanozinga.github.io/fortes-kb-poc/
 
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - toc.integrate
+    - content.code.annotate
+    - content.action.edit
+    - navigation.tabs
+    - navigation.sections
+    - content.tabs.link
+    - content.tooltips
+    - content.code.copy
+    - content.code.select
+    - content.tabs
+    - content.action.share
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.annotate
+    - navigation.language   # <- Deze toevoegen!
   logo: images/logo.png
   palette:
     - scheme: default
