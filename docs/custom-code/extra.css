@@ -1,0 +1,22 @@
+/* Maak headings oranje */
+.md-typeset h1, .md-typeset h2 {
+  color: #FAA81C;
+}
+
+/* Achtergrond voor info callouts als ice blue */
+.md-typeset .admonition.info {
+  background: #F2FAFE;
+  border-left: 4px solid #2AACE2;
+}
+
+/* Fortes Yellow als accent voor waarschuwingsblokken */
+.md-typeset .admonition.warning {
+  background: #FFCF01;
+  border-left: 4px solid #182A54;
+}
+.md-main__inner {
+  max-width: 100%;   /* Standaard is 960px. Je mag het zelf aanpassen! */
+}
+.md-content {
+  background: #F2FAFE;
+}

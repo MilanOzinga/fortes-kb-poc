@@ -2,7 +2,7 @@
 === "Unordered list"
 
     * Sed sagittis eleifend rutrum
-    * Donec vitae suscipfsdfit est
+    * Donec vitae suscipit est
     * Nulla tempor lobortis orci
 
 === "Ordered list"

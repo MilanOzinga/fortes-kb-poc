@@ -12,12 +12,34 @@ theme:
       primary: '#182A54'
       accent: '#2AACE2'
 
+extra_css:
+  - custom-code/extra.css
+
+extra_javascript:
+  - custom-code/extra.js
+
+plugins:
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: nl
+          name: Nederlands
+          build: true
+          default: true
+        - locale: en
+          name: English
+          build: true
+        - locale: de
+          name: Duits
+          build: true
 
 nav:
   - Home: index.md
   - Apps:
       - General: apps/general.md
-      - Portfolio: apps/portfolio.md
+      - Portfolio:
+          - Overzicht: apps/portfolio.md
+          - Funnel: apps/portfolio/funnel.md
       - Strategy: apps/strategy.md
   - Release Notes: release-notes.md
 
