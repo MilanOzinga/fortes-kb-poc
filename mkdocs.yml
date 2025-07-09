@@ -18,7 +18,21 @@ extra_css:
 extra_javascript:
   - custom-code/extra.js
 
-
+plugins:
+  - i18n:
+      default_language: nl
+      languages:
+        nl:
+          name: Nederlands
+          build: true
+          default: true
+        en:
+          name: English
+          build: true
+        de:
+          name: Duits
+          build: true
+  - search
 
 markdown_extensions:
   - admonition
