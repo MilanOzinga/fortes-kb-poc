@@ -35,15 +35,7 @@ plugins:
       docs_structure: folder
   - search
 
-nav:
-  - Home: index.md
-  - Apps:
-      - General: apps/general.md
-      - Portfolio:
-          - Overzicht: apps/portfolio.md
-          - Funnel: apps/portfolio/funnel.md
-      - Strategy: apps/strategy.md
-  - Release Notes: release-notes.md
+
 
 markdown_extensions:
   - admonition
