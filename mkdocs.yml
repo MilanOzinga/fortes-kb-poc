@@ -20,18 +20,20 @@ extra_javascript:
 
 plugins:
   - i18n:
-      docs_structure: folder
+      default_language: nl
       languages:
-        - locale: nl
+        nl:
           name: Nederlands
           build: true
           default: true
-        - locale: en
+        en:
           name: English
           build: true
-        - locale: de
+        de:
           name: Duits
           build: true
+      docs_structure: folder
+  - search
 
 nav:
   - Home: index.md
@@ -42,9 +44,6 @@ nav:
           - Funnel: apps/portfolio/funnel.md
       - Strategy: apps/strategy.md
   - Release Notes: release-notes.md
-
-extra_javascript:
-  - https://unpkg.com/mike@latest/mkdocs/js/version-select.js
 
 markdown_extensions:
   - admonition
