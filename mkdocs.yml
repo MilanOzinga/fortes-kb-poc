@@ -22,17 +22,18 @@ plugins:
   - i18n:
       default_language: nl
       languages:
-        nl:
+        - locale: nl
           name: Nederlands
           build: true
           default: true
-        en:
+        - locale: en
           name: English
           build: true
-        de:
+        - locale: de
           name: Duits
           build: true
   - search
+
 
 markdown_extensions:
   - admonition
